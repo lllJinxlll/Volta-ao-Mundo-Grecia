@@ -43,7 +43,7 @@ body{
     font-size: 18px;
 }
 nav{
-    background-color: #ff0000;
+    background-color: #021e3f;
     text-transform: uppercase;
     height: 74px;
 }
@@ -79,7 +79,7 @@ nav ul li a:hover {
     padding: 25px 0; 
 }
 main h2 {
-    color: #00205B;
+    color: #0D5EAF;
     font-size: 20px;
     letter-spacing: 2px;
     margin: 10px 0;
@@ -88,10 +88,10 @@ main p {
     line-height: 30px;
     text-indent: 50px;
     text-align: justify;
-    margin: 10px 0 20px;
+    margin: 10px 0 0px;
 }
 main img {    
-    border: 13px groove #CCC;
+    border: 7px solid #0D5EAF;
     margin: 10px 0 25px;
 }
 footer{
