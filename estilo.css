@@ -1,4 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.topo{
+    width: 1200px;
+    margin: auto; 
+    height: 300px;
+    color:#ffffff;
+}
+.topo h1{
+    text-transform: uppercase;
+    padding-top: 50px;
+    font-size: 40px;
+    color:#ffffff;
+}
+.topo p{
+    text-align: right;
+    color: #FFF;
+    margin-right: 45px;
+    font-style: italic;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.topo h3{
+    color: #FFF;
+    font-size: 26px;
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+    margin: 15px 50px;
+}
 header{
-    background-color: #055EB1;
-    padding-bottom: 300px;
+    background-color: #0D5EAF;
+}
+header img{
+    float: left;
+    border: 2px solid #ffffff;
+    margin: 25px 40px;
+}
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 18px;
+}
+nav{
+    background-color: #0D5EAF;
+    text-transform: uppercase;
+}
+nav ul {
+	list-style-type: none;
+	text-transform: uppercase;
+}
+nav ul li {
+	float: left;
+}
+nav ul li a {
+    text-decoration: none;
+	font-size: 20px;
+	width: 232px;
+	display: block;
+	text-align: center;
+	padding: 12px 4px 12px 4px;
+	color: #FFF;
+}
+nav ul li a:hover {	
+	background-color: #FFF;
+	color: #0D5EAF;
+}
+.menu{
+    width: 1200px;
+    height: 50px;
+    padding: 10px;
+    margin: auto;
+}  
+.text-center{
+    font-weight: bold;
+}
+footer{
+    background-color: #0D5EAF;
 }
