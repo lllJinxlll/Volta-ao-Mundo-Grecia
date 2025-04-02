@@ -2,27 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.topo{
-    width: 1200px;
-    margin: auto; 
-    height: 250px;
-    color:#ffffff;
-}
-.topo h1{
-    text-transform: uppercase;
-    padding-top: 50px;
-    font-size: 40px;
-    color:#ffffff;
-}
-.topo p{
-    text-align: right;
-    color: #FFF;
-    margin-right: 45px;
-    font-style: italic;
-    font-size: 14px;
-    padding-bottom: 10px;
-}
-.topo h3{
+header h3{
     color: #FFF;
     font-size: 26px;
     text-align: center;
@@ -32,47 +12,73 @@
 }
 header{
     background-color: #0D5EAF;
+    color: white;
 }
 header img{
-    float: left;
     border: 2px solid #ffffff;
     margin: 25px 40px;
+}
+header .container{
+    margin-right: 100px;
+    margin-left: 100px;
+
 }
 body{
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 18px;
 }
-nav{
+nav {
     background-color: #021e3f;
     text-transform: uppercase;
     height: 74px;
+    color: #FFF;
 }
+
+nav {
+    background-color: #021e3f;
+    text-transform: uppercase;
+    height: 74px;
+    color: #FFF;
+}
+
+nav .container {
+    max-width: 1200px; /* Define um tamanho máximo para centralizar */
+}
+
 nav ul {
-	list-style-type: none;
-	text-transform: uppercase;
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 0; /* Remove padding padrão */
+    margin: 0; /* Remove margin padrão */
+    display: flex; /* Usar flexbox para alinhar os itens */
+    justify-content: center; /* Centraliza os itens do menu */
 }
+
 nav ul li {
-	float: left;
+    margin: 0 20px; /* Aumenta o espaço entre os itens */
 }
+
 nav ul li a {
     text-decoration: none;
-	font-size: 20px;
-	width: 232px;
-	display: block;
-	text-align: center;
-	padding: 12px 4px 12px 4px;
-	color: #FFF;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    padding: 12px 20px; /* Aumenta o padding */
+    color: #FFF; /* Cor da fonte */
 }
-nav ul li a:hover {	
-	background-color: #FFF;
-	color: #0D5EAF;
+
+nav ul li a:hover {
+    background-color: #FFF;
+    color: #0D5EAF;
 }
-.menu{
-    width: 1200px;
-    height: 50px;
-    padding: 10px;
-    margin: auto;
-}  
+
+/* Ajuste para telas pequenas */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Alinha os itens em coluna em telas pequenas */
+        text-align: center; /* Centraliza o texto no dropdown */
+    }
+}
 .d-flex{
     width: 1125px;
     margin: auto; 
@@ -113,3 +119,9 @@ thead{
     background-color:#0D5EAF ;
     color:white;
 }
+#bandeira{
+    width: 50%;
+    height: 50%;
+}
+
+

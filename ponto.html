@@ -8,33 +8,41 @@
     <title>🛩️ Volta ao Mundo - Grécia</title>
 </head>
 <body>
-    <header>
-        <div class="topo">
-            <img src="IMG/Bandeira.png" alt="Bandeira" width="250">
-            <h1 class="text-center"><strong>Grécia</strong></h1>
-            <h3 class="text-center"><strong>Conheça a mitologia, pontos turísticos, culinária e muito mais</strong></h3>
-            <p>Desenvolvido por Luis Felipe Alves</p>
+    <header class="container-fluid text-center py-1">
+        <div class="row align-items-center">
+            <div class="col-md-6 px-1">
+                <img src="IMG/Bandeira.png" alt="Bandeira" class="img-fluid" style="max-height: 200px;" id="bandeira">
+            </div>
+            <div class="col-md-6 px-1" id="topo">
+                <h1 class="mb-0"><strong>Grécia</strong></h1>
+                <h3 class="mb-0"><strong>Conheça a mitologia, pontos turísticos, culinária e muito mais.</strong></h3>
+            </div>
         </div>
     </header>
-    <nav>
-        <div class="menu">
-            <ul class="nav nav-pills nav-fill">
-                <li class="nav-item">
-                    <a href="index.html">Página Inicial</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="mitologia.html">Mitologia</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="ponto.html">Ponto Turístico</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="culinaria.html">Culinária</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="sobre.html">Sobre</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg" style="background-color: #021e3f;">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars" style="color: white;">Clica aqui</i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto"> <!-- mx-auto para centralizar -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Página Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mitologia.html">Mitologia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ponto.html">Ponto Turístico</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="culinaria.html">Culinária</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
     <main>
@@ -45,7 +53,7 @@
             </div>
         </div>
         <div class="container">
-            <div class="row pt-5">
+            <div class="row pt-3">
                 <div class="col-md-4">
                     <p class="text-left">Museu da Acrópole</p>
                     <img src="IMG/museu1.jpg" class="img-custom-local" alt="museu">               
