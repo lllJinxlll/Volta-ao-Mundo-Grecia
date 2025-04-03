@@ -2,7 +2,13 @@
     margin: 0;
     padding: 0;
 }
-header h3{
+
+header {
+    background-color: #0D5EAF;
+    color: white;
+}
+
+header h3 {
     color: #FFF;
     font-size: 26px;
     text-align: center;
@@ -10,23 +16,22 @@ header h3{
     font-weight: normal;
     margin: 15px 50px;
 }
-header{
-    background-color: #0D5EAF;
-    color: white;
-}
-header img{
+
+header img {
     border: 2px solid #ffffff;
     margin: 25px 40px;
 }
-header .container{
+
+header .container {
     margin-right: 100px;
     margin-left: 100px;
-
 }
-body{
+
+body {
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 18px;
 }
+
 nav {
     background-color: #021e3f;
     text-transform: uppercase;
@@ -34,11 +39,19 @@ nav {
     color: #FFF;
 }
 
-nav {
-    background-color: #021e3f;
-    text-transform: uppercase;
-    height: 74px;
-    color: #FFF;
+nav .navbar-nav .nav-link {
+    font-size: 20px;
+    padding: 12px 20px; /* Aumenta o padding */
+    color: #FFF; /* Cor da fonte */
+    background-color: #021e3f; /* Fundo fixo */
+    border-radius: 4px; /* Bordas arredondadas */
+    margin: 0 10px; /* Espaçamento entre os itens */
+}
+
+nav .navbar-nav .nav-link:hover,
+nav .navbar-nav .nav-link:focus {
+    background-color: #021e3f; /* Mantém o fundo fixo ao passar o mouse */
+    color: #FFF; /* Mantém a cor do texto */
 }
 
 nav .container {
@@ -67,9 +80,51 @@ nav ul li a {
     color: #FFF; /* Cor da fonte */
 }
 
-nav ul li a:hover {
-    background-color: #FFF;
+main h2 {
     color: #0D5EAF;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+
+main p {
+    line-height: 30px;
+    text-indent: 50px;
+    text-align: justify;
+    margin: 10px 0 0px;
+}
+
+main img {    
+    border: 7px solid #0D5EAF;
+    margin: 10px 0 25px;
+}
+
+footer {
+    background-color: #0D5EAF;
+    height: 100px;
+    color: #FFF;
+    text-align: center;
+}
+
+.img-custom {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.img-custom-local {
+    width: 100%;
+    height: 200px;  
+}
+
+thead {
+    background-color: #0D5EAF;
+    color: white;
+}
+
+#bandeira {
+    width: 50%;
+    height: 50%;
 }
 
 /* Ajuste para telas pequenas */
@@ -79,49 +134,3 @@ nav ul li a:hover {
         text-align: center; /* Centraliza o texto no dropdown */
     }
 }
-.d-flex{
-    width: 1125px;
-    margin: auto; 
-    padding: 25px 0; 
-}
-main h2 {
-    color: #0D5EAF;
-    font-size: 20px;
-    letter-spacing: 2px;
-    margin: 10px 0;
-}
-main p {
-    line-height: 30px;
-    text-indent: 50px;
-    text-align: justify;
-    margin: 10px 0 0px;
-}
-main img {    
-    border: 7px solid #0D5EAF;
-    margin: 10px 0 25px;
-}
-footer{
-    background-color: #0D5EAF;
-    height: 100px;
-    color:#FFF ;
-    text-align: center;
-}
-.img-custom{
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
-}
-.img-custom-local{
-    width: 100%;
-    height: 200px;  
-}
-thead{
-    background-color:#0D5EAF ;
-    color:white;
-}
-#bandeira{
-    width: 50%;
-    height: 50%;
-}
-
-
