@@ -41,34 +41,34 @@ nav {
 
 nav .navbar-nav .nav-link {
     font-size: 20px;
-    padding: 12px 20px; /* Aumenta o padding */
-    color: #FFF; /* Cor da fonte */
-    background-color: #021e3f; /* Fundo fixo */
-    border-radius: 4px; /* Bordas arredondadas */
-    margin: 0 10px; /* Espaçamento entre os itens */
+    padding: 12px 20px;
+    color: #FFF;
+    background-color: #021e3f;
+    border-radius: 4px;
+    margin: 0 10px;
 }
 
 nav .navbar-nav .nav-link:hover,
 nav .navbar-nav .nav-link:focus {
-    background-color: #021e3f; /* Mantém o fundo fixo ao passar o mouse */
-    color: #FFF; /* Mantém a cor do texto */
+    background-color: #fff; 
+    color: #021e3f; 
 }
 
 nav .container {
-    max-width: 1200px; /* Define um tamanho máximo para centralizar */
+    max-width: 1300px;
 }
 
 nav ul {
     list-style-type: none;
     text-transform: uppercase;
-    padding: 0; /* Remove padding padrão */
-    margin: 0; /* Remove margin padrão */
-    display: flex; /* Usar flexbox para alinhar os itens */
-    justify-content: center; /* Centraliza os itens do menu */
+    padding: 0;
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
 }
 
 nav ul li {
-    margin: 0 20px; /* Aumenta o espaço entre os itens */
+    margin: 0 40px;
 }
 
 nav ul li a {
@@ -76,8 +76,8 @@ nav ul li a {
     font-size: 20px;
     display: block;
     text-align: center;
-    padding: 12px 20px; /* Aumenta o padding */
-    color: #FFF; /* Cor da fonte */
+    padding: 12px 20px;
+    color: #FFF;
 }
 
 main h2 {
@@ -123,14 +123,26 @@ thead {
 }
 
 #bandeira {
-    width: 50%;
+    width: 30%;
     height: 50%;
 }
 
-/* Ajuste para telas pequenas */
+
+.navbar-toggler {
+    border: none; 
+}
+
+.navbar-toggler-icon {
+    background-color: transparent;
+}
+
 @media (max-width: 768px) {
     nav ul {
-        flex-direction: column; /* Alinha os itens em coluna em telas pequenas */
-        text-align: center; /* Centraliza o texto no dropdown */
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar-toggler-icon {
+        background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="white" stroke-width="2" d="M4 7h22M4 15h22M4 23h22" /%3E%3C/svg%3E');
+        background-size: 30px 30px;
     }
 }
