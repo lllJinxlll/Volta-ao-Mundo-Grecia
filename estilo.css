@@ -135,6 +135,15 @@ thead {
 .navbar-toggler-icon {
     background-color: transparent;
 }
+.texto-modal strong{
+    color: #0D5EAF;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+.btn-secondary{
+    background-color: #0D5EAF;
+}
 
 @media (max-width: 768px) {
     nav ul {
